@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.card3{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 1500px;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    left: -50px;
+    
+}
+.card3::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background: rgb(190, 190, 190);
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+    z-index: -1;
+    
+}
+.card4{
+    background-color: rgb(3, 0, 0);
+    height: 140px;
+    width: 1500px;
+    position: absolute;
+    text-align: center;
+    top: 650px;
+    left: -50px;
+    
+}
+.atras3{
+    width: 100%;
+    display: flex;
+
+
+}
+.atras3{
+   
+    top: -7px;
+    left: -20px;
+   
+
+    position: absolute;  
+}
+.atras3 figure{
+    
+    position: relative;
+    height: 10px;
+}
+.ca1{
+    width: 100%;
+    display: flex;
+}
+.ca1{
+   
+    top: -20px;
+    left: 20px;
+    position: absolute;  
+}
+.ca1 figure{
+    position: relative;
+    height: 10px;
+}
+.ca1:hover{
+    filter: opacity(.5);
+}
+
+.ca2{
+    width: 100%;
+    display: flex;
+}
+.ca2{
+   
+    top: -20px;
+    left: 340px;
+    position: absolute;  
+}
+.ca2 figure{
+    position: relative;
+    height: 10px;
+}
+.ca2:hover{
+    filter: opacity(.5);
+}
+
+
+
+.ca3{
+    width: 100%;
+    display: flex;
+}
+.ca3{
+   
+    top: -20px;
+    left: 660px;
+    position: absolute;  
+}
+.ca3 figure{
+    position: relative;
+    height: 10px;
+}
+.ca3:hover{
+    filter: opacity(.5);
+}
+.ca4{
+    width: 100%;
+    display: flex;
+}
+.ca4{
+   
+    top: -20px;
+    left: 980px;
+    position: absolute;  
+}
+.ca4 figure{
+    position: relative;
+    height: 10px;
+}
+.ca4:hover{
+    filter: opacity(.5);
+}
+.info{
+    color: white;
+    top: 665px;
+    left: 100px;
+    position:absolute;
+    
+}
+.info2{
+    color: white;
+    top:  665px;
+    left: 400px;
+    position:absolute; 
+}
+.info3{
+    color: white;
+    top: 665px;
+    left: 700px;
+    position:absolute; 
+}
+.info4{
+    color: white;
+    top: 770px;
+    left: 550px;
+    position:absolute; 
+}
+.a{
+    size: 10;
+   
+    top: 665px;
+    left: 1100px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+}
